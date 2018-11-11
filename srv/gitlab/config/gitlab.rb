@@ -287,8 +287,8 @@
  gitlab_rails['omniauth_providers'] = [
    {
      "name" => "google_oauth2",
-     "app_id" => "841864554214-r0tscq2b9khvemb9n3ib7p49bhe5r7hi.apps.googleusercontent.com",
-    "app_secret" => "_poBZWiH_j6wcMidznsOelLX",
+     "app_id" => "NO",
+    "app_secret" => "I SAID NO",
     "args" => { "access_type" => "offline", "approval_prompt" => "" }
   }
  ]
