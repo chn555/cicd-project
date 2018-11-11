@@ -1,0 +1,12 @@
+[0KRunning with gitlab-runner 11.4.2 (cf91d5e1)
+[0;m[0K  on dockerized runner 478097d8
+[0;m[0KUsing Docker executor with image maven:latest ...
+[0;m[0KPulling docker image maven:latest ...
+[0;m[0KUsing docker image sha256:9502b11ef5292320e9c87e2c76f0f2c889a054ceee2a1e04176c859621be21b4 for maven:latest ...
+[0;msection_start:1541953332:prepare_script[0KRunning on runner-478097d8-project-1-concurrent-0 via 283af80b952b...
+section_end:1541953334:prepare_script[0Ksection_start:1541953334:get_sources[0K[32;1mCloning repository...[0;m
+Cloning into '/builds/root/spring-boot-examples'...
+fatal: unable to access 'http://gitlab-ci-token:xxxxxxxxxxxxxxxxxxxx@gitlab/root/spring-boot-examples.git/': Could not resolve host: gitlab
+section_end:1541953335:get_sources[0Ksection_start:1541953335:upload_artifacts_on_failure[0K/bin/bash: line 61: cd: /builds/root/spring-boot-examples: No such file or directory
+section_end:1541953337:upload_artifacts_on_failure[0K[31;1mERROR: Job failed: exit code 1
+[0;m

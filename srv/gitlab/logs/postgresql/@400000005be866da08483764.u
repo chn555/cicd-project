@@ -1,0 +1,30 @@
+2018-11-11_17:21:24.00259 LOG:  database system was shut down at 2018-11-11 17:20:54 GMT
+2018-11-11_17:21:24.02769 LOG:  MultiXact member wraparound protections are now enabled
+2018-11-11_17:21:24.02876 LOG:  database system is ready to accept connections
+2018-11-11_17:21:24.04585 LOG:  autovacuum launcher started
+2018-11-11_17:25:55.10272 received TERM from runit, sending INT instead to force quit connections
+2018-11-11_17:25:55.10474 LOG:  received fast shutdown request
+2018-11-11_17:25:55.10477 LOG:  aborting any active transactions
+2018-11-11_17:25:55.11330 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11334 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11335 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11336 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11338 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11339 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11340 LOG:  autovacuum launcher shutting down
+2018-11-11_17:25:55.11341 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11342 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11343 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11345 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11346 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11347 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11348 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11349 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11350 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11352 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11353 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11358 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11423 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11473 FATAL:  terminating connection due to administrator command
+2018-11-11_17:25:55.11766 LOG:  shutting down
+2018-11-11_17:25:55.21954 LOG:  database system is shut down

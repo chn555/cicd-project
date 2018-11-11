@@ -1,0 +1,22 @@
+gitlab:
+   image: 'gitlab/gitlab-ce:latest'
+   hostname: 'gitlab.tondovski.com'
+   environment:
+     GITLAB_OMNIBUS_CONFIG: |
+       #external_url 'http://gitlab.tondovski.com'
+       external_url 'http://localhost'
+       # Add any other gitlab.rb configuration here, each on its own 
+   ports:
+     - '80:80'
+     - '443:443'
+     - '2222:22'
+   volumes:
+     - '/srv/gitlab/config:/etc/gitlab'
+     - '/srv/gitlab/logs:/var/log/gitlab'
+     - '/srv/gitlab/data:/var/opt/gitlab'
+
+gitlab-runner:
+   image: 'gitlab/gitlab-runner:latest'
+   volumes:
+     - '/srv/gitlab-runner/config:/etc/gitlab-runner'
+     - '/var/run/docker.sock:/var/run/docker.sock'

@@ -1,0 +1,31 @@
+2018-11-11_15:59:33.92550                 _._                                                  
+2018-11-11_15:59:33.92557            _.-``__ ''-._                                             
+2018-11-11_15:59:33.92557       _.-``    `.  `_.  ''-._           Redis 3.2.12 (00000000/0) 64 bit
+2018-11-11_15:59:33.92558   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-11-11_15:59:33.92558  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-11-11_15:59:33.92559  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-11-11_15:59:33.92559  |    `-._   `._    /     _.-'    |     PID: 519
+2018-11-11_15:59:33.92559   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-11-11_15:59:33.92560  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-11-11_15:59:33.92560  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-11-11_15:59:33.92560   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-11-11_15:59:33.92561  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-11-11_15:59:33.92561  |    `-._`-._        _.-'_.-'    |                                  
+2018-11-11_15:59:33.92561   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-11-11_15:59:33.92562       `-._    `-.__.-'    _.-'                                       
+2018-11-11_15:59:33.92562           `-._        _.-'                                           
+2018-11-11_15:59:33.92564               `-.__.-'                                               
+2018-11-11_15:59:33.92564 
+2018-11-11_15:59:33.92574 519:M 11 Nov 15:59:33.925 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-11-11_15:59:33.92579 519:M 11 Nov 15:59:33.925 # Server started, Redis version 3.2.12
+2018-11-11_15:59:33.92585 519:M 11 Nov 15:59:33.925 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2018-11-11_15:59:33.92593 519:M 11 Nov 15:59:33.925 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-11-11_15:59:33.92677 519:M 11 Nov 15:59:33.926 * DB loaded from disk: 0.001 seconds
+2018-11-11_15:59:33.92682 519:M 11 Nov 15:59:33.926 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-11-11_16:01:35.35836 519:signal-handler (1541952095) Received SIGTERM scheduling shutdown...
+2018-11-11_16:01:35.39077 519:M 11 Nov 16:01:35.390 # User requested shutdown...
+2018-11-11_16:01:35.39081 519:M 11 Nov 16:01:35.390 * Saving the final RDB snapshot before exiting.
+2018-11-11_16:01:35.41745 519:M 11 Nov 16:01:35.417 * DB saved on disk
+2018-11-11_16:01:35.41750 519:M 11 Nov 16:01:35.417 * Removing the pid file.
+2018-11-11_16:01:35.41754 519:M 11 Nov 16:01:35.417 * Removing the unix socket file.
+2018-11-11_16:01:35.41755 519:M 11 Nov 16:01:35.417 # Redis is now ready to exit, bye bye...

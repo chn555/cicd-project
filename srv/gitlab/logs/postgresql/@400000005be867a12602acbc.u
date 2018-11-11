@@ -1,0 +1,9 @@
+2018-11-11_17:31:20.57265 LOG:  database system was interrupted; last known up at 2018-11-11 17:28:48 GMT
+2018-11-11_17:31:20.82902 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-11-11_17:31:20.85742 LOG:  redo starts at 0/1B366F0
+2018-11-11_17:31:20.86100 LOG:  invalid record length at 0/1B45748: wanted 24, got 0
+2018-11-11_17:31:20.86103 LOG:  redo done at 0/1B45720
+2018-11-11_17:31:20.86104 LOG:  last completed transaction was at log time 2018-11-11 17:30:21.133915+00
+2018-11-11_17:31:20.95065 LOG:  MultiXact member wraparound protections are now enabled
+2018-11-11_17:31:20.95365 LOG:  database system is ready to accept connections
+2018-11-11_17:31:20.95396 LOG:  autovacuum launcher started

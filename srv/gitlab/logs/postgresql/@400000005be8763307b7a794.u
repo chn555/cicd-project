@@ -1,0 +1,25 @@
+2018-11-11_18:33:52.39476 received TERM from runit, sending INT instead to force quit connections
+2018-11-11_18:33:52.39541 LOG:  received fast shutdown request
+2018-11-11_18:33:52.39542 LOG:  aborting any active transactions
+2018-11-11_18:33:52.39543 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39595 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39597 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39597 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39597 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39598 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39598 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39634 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39707 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39724 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39725 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39726 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39727 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39786 LOG:  autovacuum launcher shutting down
+2018-11-11_18:33:52.39873 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39876 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39878 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39949 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39951 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.39952 FATAL:  terminating connection due to administrator command
+2018-11-11_18:33:52.40137 LOG:  shutting down
+2018-11-11_18:33:52.46938 LOG:  database system is shut down

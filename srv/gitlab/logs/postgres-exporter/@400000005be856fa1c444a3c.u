@@ -1,0 +1,6 @@
+2018-11-11_16:01:58.01611 time="2018-11-11T16:01:58Z" level=info msg="Established new database connection." source="postgres_exporter.go:995"
+2018-11-11_16:01:58.01675 time="2018-11-11T16:01:58Z" level=info msg="Error while closing non-pinging DB connection: <nil>" source="postgres_exporter.go:1001"
+2018-11-11_16:01:58.01681 time="2018-11-11T16:01:58Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: no such file or directory" source="postgres_exporter.go:1030"
+2018-11-11_16:01:58.01687 time="2018-11-11T16:01:58Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1137"
+2018-11-11_16:02:09.03633 time="2018-11-11T16:02:09Z" level=info msg="Established new database connection." source="postgres_exporter.go:995"
+2018-11-11_16:02:09.04142 time="2018-11-11T16:02:09Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.8" source="postgres_exporter.go:925"

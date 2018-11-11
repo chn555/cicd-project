@@ -1,0 +1,8 @@
+2018-11-11_16:01:57.99792 level=info ts=2018-11-11T16:01:57.997829332Z caller=main.go:174 msg="Starting Alertmanager" version="(version=0.15.1, branch=master, revision=8b01fcbe2dcd7fc818e9b8f517764f08967ae3f5)"
+2018-11-11_16:01:57.99806 level=info ts=2018-11-11T16:01:57.998029704Z caller=main.go:175 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=2018-11-04T23:58:08+00:00)"
+2018-11-11_16:01:58.00887 level=info ts=2018-11-11T16:01:58.008324489Z caller=cluster.go:155 component=cluster msg="setting advertise address explicitly" addr=172.18.0.2 port=9094
+2018-11-11_16:01:58.01158 level=info ts=2018-11-11T16:01:58.011521299Z caller=main.go:320 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2018-11-11_16:01:58.02362 level=info ts=2018-11-11T16:01:58.023546428Z caller=cluster.go:570 component=cluster msg="Waiting for gossip to settle..." interval=10m0s
+2018-11-11_16:01:58.02711 level=info ts=2018-11-11T16:01:58.027050397Z caller=main.go:396 msg=Listening address=localhost:9093
+2018-11-11_16:02:58.01224 level=info ts=2018-11-11T16:02:58.011884003Z caller=cluster.go:579 component=cluster msg="gossip not settled but continuing anyway" polls=0 elapsed=59.988218035s
+2018-11-11_16:19:04.61064 level=info ts=2018-11-11T16:19:04.610569866Z caller=main.go:424 msg="Received SIGTERM, exiting gracefully..."

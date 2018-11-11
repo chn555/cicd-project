@@ -1,0 +1,27 @@
+2018-11-11_18:34:17.29338 LOG:  database system was shut down at 2018-11-11 18:33:52 GMT
+2018-11-11_18:34:17.32079 LOG:  MultiXact member wraparound protections are now enabled
+2018-11-11_18:34:17.32170 LOG:  database system is ready to accept connections
+2018-11-11_18:34:17.33356 LOG:  autovacuum launcher started
+2018-11-11_18:43:28.63456 received TERM from runit, sending INT instead to force quit connections
+2018-11-11_18:43:28.63532 LOG:  received fast shutdown request
+2018-11-11_18:43:28.63533 LOG:  aborting any active transactions
+2018-11-11_18:43:28.63535 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63535 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63536 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63536 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63714 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63716 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63717 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63717 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63718 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63718 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63718 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63720 LOG:  autovacuum launcher shutting down
+2018-11-11_18:43:28.63730 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63820 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63822 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63843 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63843 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63852 FATAL:  terminating connection due to administrator command
+2018-11-11_18:43:28.63986 LOG:  shutting down
+2018-11-11_18:43:28.73352 LOG:  database system is shut down

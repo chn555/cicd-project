@@ -1,0 +1,280 @@
+[0KRunning with gitlab-runner 11.4.2 (cf91d5e1)
+[0;m[0K  on dockerized runner 478097d8
+[0;m[0KUsing Docker executor with image maven:3.3.9-jdk-8 ...
+[0;m[0KPulling docker image maven:3.3.9-jdk-8 ...
+[0;m[0KUsing docker image sha256:9997d8483b2fc521a4159feab922546dda0c5c22b5084f86dfab48f123ae4364 for maven:3.3.9-jdk-8 ...
+[0;msection_start:1541961105:prepare_script[0KRunning on runner-478097d8-project-1-concurrent-0 via 283af80b952b...
+section_end:1541961107:prepare_script[0Ksection_start:1541961107:get_sources[0K[32;1mFetching changes...[0;m
+Removing .m2/
+Removing target/
+HEAD is now at 0ec4191 Update .gitlab-ci.yml
+[32;1mChecking out 0ec41919 as master...[0;m
+[32;1mSkipping Git submodules setup[0;m
+section_end:1541961109:get_sources[0Ksection_start:1541961109:restore_cache[0K[32;1mChecking cache for default...[0;m
+No URL provided, cache will be not downloaded from shared cache server. Instead a local version of cache will be extracted.[0;m 
+[32;1mSuccessfully extracted cache[0;m
+section_end:1541961112:restore_cache[0Ksection_start:1541961112:download_artifacts[0Ksection_end:1541961114:download_artifacts[0Ksection_start:1541961114:build_script[0K[32;1m$ mvn $MAVEN_CLI_OPTS test[0;m
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Expected root element 'settings' but found 'project' (position: START_TAG seen ...apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">... @3:101)  @ /builds/root/spring-boot-examples/pom.xml, line 3, column 101
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-boot-package-war 0.0.5-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.2.1:revision (default) @ spring-boot-package-war ---
+[INFO] dotGitDirectory /builds/root/spring-boot-examples/.git
+[INFO] git.build.user.name 
+[INFO] git.build.user.email 
+[INFO] git.branch 0ec4191931839b989591a54025c81c0b60b0c56e
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] HEAD is [0ec4191931839b989591a54025c81c0b60b0c56e]
+[INFO] Repo is in dirty state [false]
+[INFO] git.commit.id.describe 0ec4191
+[INFO] git.commit.id 0ec4191931839b989591a54025c81c0b60b0c56e
+[INFO] git.commit.id.abbrev 0ec4191
+[INFO] git.dirty true
+[INFO] git.commit.user.name Administrator
+[INFO] git.commit.user.email admin@example.com
+[INFO] git.commit.message.full Update .gitlab-ci.yml
+[INFO] git.commit.message.short Update .gitlab-ci.yml
+[INFO] git.commit.time 20181111
+[INFO] git.remote.origin.url http://gitlab-ci-token@gitlab/root/spring-boot-examples.git
+[INFO] git.tags 
+[INFO] Tag refs [[]]
+[INFO] git.closest.tag.name 
+[INFO] Tag refs [[]]
+[INFO] git.closest.tag.commit.count 
+[INFO] git.build.time 20181111
+[INFO] git.build.version 0.0.5-SNAPSHOT
+[INFO] git.build.host runner-478097d8-project-1-concurrent-0
+[INFO] git.commit.id.describe-short 0ec4191
+[INFO] found property git.build.host
+[INFO] found property git.build.user.name
+[INFO] found property git.closest.tag.commit.count
+[INFO] found property git.commit.id
+[INFO] found property git.branch
+[INFO] found property git.dirty
+[INFO] found property git.remote.origin.url
+[INFO] found property git.build.time
+[INFO] found property git.commit.user.name
+[INFO] found property git.commit.id.describe
+[INFO] found property git.commit.message.full
+[INFO] found property git.commit.time
+[INFO] found property git.commit.id.abbrev
+[INFO] found property git.build.user.email
+[INFO] found property git.commit.message.short
+[INFO] found property git.build.version
+[INFO] found property git.tags
+[INFO] found property git.commit.user.email
+[INFO] found property git.commit.id.describe-short
+[INFO] found property git.closest.tag.name
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-package-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-package-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-boot-package-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /builds/root/spring-boot-examples/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-boot-package-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ spring-boot-package-war ---
+[INFO] Surefire report directory: /builds/root/spring-boot-examples/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+18:31:59.352 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.neo.controller.HelloWorldControlerTests]
+18:31:59.360 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:31:59.366 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:31:59.378 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.neo.controller.HelloWorldControlerTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+18:31:59.397 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@c038203 declaringClass = 'com.neo.controller.HelloWorldControlerTests', classes = '{class org.springframework.mock.web.MockServletContext}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:31:59.404 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloWorldControlerTests]: class path resource [com/neo/controller/HelloWorldControlerTests-context.xml] does not exist
+18:31:59.404 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloWorldControlerTests]: class path resource [com/neo/controller/HelloWorldControlerTestsContext.groovy] does not exist
+18:31:59.405 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.neo.controller.HelloWorldControlerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:59.406 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.409 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.neo.controller.HelloWorldControlerTests]: using defaults.
+18:31:59.415 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:31:59.420 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:31:59.421 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:31:59.423 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71318ec4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@21213b92, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a67c67e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3327bd23]
+18:31:59.423 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.neo.controller.HelloTests]
+18:31:59.424 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:31:59.424 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:31:59.424 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.neo.controller.HelloTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+18:31:59.426 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@4e1d422d declaringClass = 'com.neo.controller.HelloTests', classes = '{class org.springframework.mock.web.MockServletContext}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:31:59.426 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloTests]: class path resource [com/neo/controller/HelloTests-context.xml] does not exist
+18:31:59.426 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloTests]: class path resource [com/neo/controller/HelloTestsContext.groovy] does not exist
+18:31:59.426 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.neo.controller.HelloTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:59.427 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.neo.controller.HelloTests]
+18:31:59.427 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.neo.controller.HelloTests]: using defaults.
+18:31:59.429 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:31:59.429 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:31:59.430 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:31:59.430 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4e9ba398, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d7b4f4c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@527740a2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13a5fe33]
+18:31:59.430 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.neo.ApplicationTests]
+18:31:59.430 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:31:59.430 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:31:59.431 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.neo.ApplicationTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+18:31:59.432 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@370736d9 declaringClass = 'com.neo.ApplicationTests', classes = '{class com.neo.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:31:59.432 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.ApplicationTests]: class path resource [com/neo/ApplicationTests-context.xml] does not exist
+18:31:59.433 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.ApplicationTests]: class path resource [com/neo/ApplicationTestsContext.groovy] does not exist
+18:31:59.433 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.neo.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:59.433 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.neo.ApplicationTests]
+18:31:59.433 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [com.neo.ApplicationTests]: using defaults.
+18:31:59.435 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:31:59.435 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:31:59.435 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:31:59.436 [main] INFO org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ddf90b0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57536d79, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3b0143d3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a8e6209]
+18:31:59.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.controller.HelloTests]
+18:31:59.438 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.controller.HelloTests]
+18:31:59.439 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.ApplicationTests]
+18:31:59.439 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.ApplicationTests]
+Running com.neo.controller.HelloWorldControlerTests
+18:31:59.440 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.neo.controller.HelloWorldControlerTests]
+18:31:59.441 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:31:59.441 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:31:59.441 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.neo.controller.HelloWorldControlerTests] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+18:31:59.444 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@627551fb declaringClass = 'com.neo.controller.HelloWorldControlerTests', classes = '{class org.springframework.mock.web.MockServletContext}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:31:59.445 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloWorldControlerTests]: class path resource [com/neo/controller/HelloWorldControlerTests-context.xml] does not exist
+18:31:59.445 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.neo.controller.HelloWorldControlerTests]: class path resource [com/neo/controller/HelloWorldControlerTestsContext.groovy] does not exist
+18:31:59.445 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.neo.controller.HelloWorldControlerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:31:59.446 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.446 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.neo.controller.HelloWorldControlerTests]: using defaults.
+18:31:59.447 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:31:59.448 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+18:31:59.449 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+18:31:59.449 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3a883ce7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4973813a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6321e813, org.springframework.test.context.support.DirtiesContextTestExecutionListener@79be0360]
+18:31:59.449 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.449 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.450 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.452 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@a7e666 testClass = HelloWorldControlerTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@68bbe345 testClass = HelloWorldControlerTests, locations = '{}', classes = '{class org.springframework.mock.web.MockServletContext}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:31:59.453 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.453 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.neo.controller.HelloWorldControlerTests]
+18:31:59.499 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:31:59.500 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:31:59.501 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:31:59.502 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.6.RELEASE)
+
+2018-11-11 18:31:59.670  INFO 60 --- [           main] c.n.controller.HelloWorldControlerTests  : Starting HelloWorldControlerTests on runner-478097d8-project-1-concurrent-0 with PID 60 (/builds/root/spring-boot-examples/target/test-classes started by root in /builds/root/spring-boot-examples)
+2018-11-11 18:31:59.671  INFO 60 --- [           main] c.n.controller.HelloWorldControlerTests  : No active profile set, falling back to default profiles: default
+2018-11-11 18:31:59.698  INFO 60 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1bd4fdd: startup date [Sun Nov 11 18:31:59 UTC 2018]; root of context hierarchy
+2018-11-11 18:31:59.765  INFO 60 --- [           main] c.n.controller.HelloWorldControlerTests  : Started HelloWorldControlerTests in 0.257 seconds (JVM running for 0.741)
+2018-11-11 18:31:59.894  INFO 60 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.neo.controller.HelloWorldController.index()
+2018-11-11 18:32:00.010  INFO 60 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@428640fa
+2018-11-11 18:32:00.092  INFO 60 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2018-11-11 18:32:00.092  INFO 60 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-11-11 18:32:00.093  INFO 60 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /hello
+       Parameters = {}
+          Headers = {Accept=[application/json]}
+
+Handler:
+             Type = com.neo.controller.HelloWorldController
+           Method = public java.lang.String com.neo.controller.HelloWorldController.index()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8], Content-Length=[11]}
+     Content type = application/json;charset=UTF-8
+             Body = Hello World
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.694 sec - in com.neo.controller.HelloWorldControlerTests
+Running com.neo.controller.HelloTests
+2018-11-11 18:32:00.135  INFO 60 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neo.controller.HelloTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-11-11 18:32:00.137  INFO 60 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-11 18:32:00.138  INFO 60 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2018-11-11 18:32:00.138  INFO 60 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+2018-11-11 18:32:00.138  INFO 60 --- [           main] o.s.t.c.web.WebTestContextBootstrapper   : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e3181aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@253d9f73, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@142269f2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@331acdad]
+2018-11-11 18:32:00.142  INFO 60 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.neo.controller.HelloWorldController.index()
+2018-11-11 18:32:00.149  INFO 60 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@a22cb6a
+2018-11-11 18:32:00.151  INFO 60 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2018-11-11 18:32:00.152  INFO 60 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-11-11 18:32:00.152  INFO 60 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.neo.controller.HelloTests
+Running com.neo.ApplicationTests
+2018-11-11 18:32:00.158  INFO 60 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.neo.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-11-11 18:32:00.160  INFO 60 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-11-11 18:32:00.161  INFO 60 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2018-11-11 18:32:00.161  INFO 60 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+2018-11-11 18:32:00.162  INFO 60 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4758820d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74eb909f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@28ec166e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2eee3069]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.6.RELEASE)
+
+2018-11-11 18:32:00.195  INFO 60 --- [           main] com.neo.ApplicationTests                 : Starting ApplicationTests on runner-478097d8-project-1-concurrent-0 with PID 60 (/builds/root/spring-boot-examples/target/test-classes started by root in /builds/root/spring-boot-examples)
+2018-11-11 18:32:00.196  INFO 60 --- [           main] com.neo.ApplicationTests                 : No active profile set, falling back to default profiles: default
+2018-11-11 18:32:00.206  INFO 60 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@628c4ac0: startup date [Sun Nov 11 18:32:00 UTC 2018]; root of context hierarchy
+2018-11-11 18:32:00.719  INFO 60 --- [           main] com.neo.ApplicationTests                 : Started ApplicationTests in 0.552 seconds (JVM running for 1.695)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.563 sec - in com.neo.ApplicationTests
+2018-11-11 18:32:00.723  INFO 60 --- [       Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@628c4ac0: startup date [Sun Nov 11 18:32:00 UTC 2018]; root of context hierarchy
+2018-11-11 18:32:00.724  INFO 60 --- [       Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1bd4fdd: startup date [Sun Nov 11 18:31:59 UTC 2018]; root of context hierarchy
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.863 s
+[INFO] Finished at: 2018-11-11T18:32:00+00:00
+[INFO] Final Memory: 19M/314M
+[INFO] ------------------------------------------------------------------------
+section_end:1541961121:build_script[0Ksection_start:1541961121:after_script[0Ksection_end:1541961123:after_script[0Ksection_start:1541961123:archive_cache[0K[32;1mCreating cache default...[0;m
+.m2/repository/: found 2325 matching files        [0;m 
+target/: found 82 matching files                  [0;m 
+No URL provided, cache will be not uploaded to shared cache server. Cache will be stored only locally.[0;m 
+[32;1mCreated cache[0;m
+section_end:1541961128:archive_cache[0Ksection_start:1541961128:upload_artifacts_on_success[0Ksection_end:1541961130:upload_artifacts_on_success[0K[32;1mJob succeeded
+[0;m

@@ -1,0 +1,10 @@
+I, [2018-11-11T16:00:33.011942 #864]  INFO -- omniauth: (google_oauth2) Request phase initiated.
+I, [2018-11-11T16:00:35.752585 #849]  INFO -- omniauth: (google_oauth2) Callback phase initiated.
+I, [2018-11-11T16:00:57.008169 #864]  INFO -- omniauth: (google_oauth2) Callback phase initiated.
+E, [2018-11-11T16:00:57.008545 #864] ERROR -- omniauth: (google_oauth2) Authentication failure! csrf_detected: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+I, [2018-11-11T16:03:10.749387 #840]  INFO -- omniauth: (google_oauth2) Request phase initiated.
+I, [2018-11-11T16:03:30.466877 #858]  INFO -- omniauth: (google_oauth2) Request phase initiated.
+I, [2018-11-11T16:03:31.617245 #849]  INFO -- omniauth: (google_oauth2) Callback phase initiated.
+I, [2018-11-11T16:05:22.114237 #834]  INFO -- omniauth: (google_oauth2) Request phase initiated.
+I, [2018-11-11T16:07:54.346922 #837]  INFO -- omniauth: (google_oauth2) Request phase initiated.
+I, [2018-11-11T16:07:55.933422 #837]  INFO -- omniauth: (google_oauth2) Callback phase initiated.

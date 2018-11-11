@@ -1,0 +1,27 @@
+[0KRunning with gitlab-runner 11.4.2 (cf91d5e1)
+[0;m[0K  on dockerized runner 478097d8
+[0;m[0KUsing Docker executor with image maven:3.3.9-jdk-8 ...
+[0;m[0KPulling docker image maven:3.3.9-jdk-8 ...
+[0;m[0KUsing docker image sha256:9997d8483b2fc521a4159feab922546dda0c5c22b5084f86dfab48f123ae4364 for maven:3.3.9-jdk-8 ...
+[0;msection_start:1541961133:prepare_script[0KRunning on runner-478097d8-project-1-concurrent-0 via 283af80b952b...
+section_end:1541961135:prepare_script[0Ksection_start:1541961135:get_sources[0K[32;1mFetching changes...[0;m
+Removing .m2/
+Removing target/
+HEAD is now at 0ec4191 Update .gitlab-ci.yml
+[32;1mChecking out 0ec41919 as master...[0;m
+[32;1mSkipping Git submodules setup[0;m
+section_end:1541961137:get_sources[0Ksection_start:1541961137:restore_cache[0K[32;1mChecking cache for default...[0;m
+No URL provided, cache will be not downloaded from shared cache server. Instead a local version of cache will be extracted.[0;m 
+[32;1mSuccessfully extracted cache[0;m
+section_end:1541961141:restore_cache[0Ksection_start:1541961141:download_artifacts[0Ksection_end:1541961143:download_artifacts[0Ksection_start:1541961143:build_script[0K[32;1m$ echo DONE[0;m
+DONE
+section_end:1541961145:build_script[0Ksection_start:1541961145:after_script[0Ksection_end:1541961147:after_script[0Ksection_start:1541961147:archive_cache[0K[32;1mCreating cache default...[0;m
+.m2/repository/: found 2325 matching files        [0;m 
+target/: found 82 matching files                  [0;m 
+Archive is up to date!                            [0;m 
+[32;1mCreated cache[0;m
+section_end:1541961149:archive_cache[0Ksection_start:1541961149:upload_artifacts_on_success[0K[32;1mUploading artifacts...[0;m
+target/*.war: found 1 matching files              [0;m 
+Uploading artifacts to coordinator... ok          [0;m  id[0;m=65 responseStatus[0;m=201 Created token[0;m=qT6qSr6G
+section_end:1541961152:upload_artifacts_on_success[0K[32;1mJob succeeded
+[0;m

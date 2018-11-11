@@ -1,0 +1,22 @@
+2018-11-11_16:25:31.02975 423:M 11 Nov 16:25:31.029 * 10 changes in 300 seconds. Saving...
+2018-11-11_16:25:31.03127 423:M 11 Nov 16:25:31.031 * Background saving started by pid 2098
+2018-11-11_16:25:31.05728 2098:C 11 Nov 16:25:31.057 * DB saved on disk
+2018-11-11_16:25:31.05842 2098:C 11 Nov 16:25:31.058 * RDB: 4 MB of memory used by copy-on-write
+2018-11-11_16:25:31.13254 423:M 11 Nov 16:25:31.132 * Background saving terminated with success
+2018-11-11_16:30:32.08972 423:M 11 Nov 16:30:32.089 * 10 changes in 300 seconds. Saving...
+2018-11-11_16:30:32.09137 423:M 11 Nov 16:30:32.091 * Background saving started by pid 2825
+2018-11-11_16:30:32.10759 2825:C 11 Nov 16:30:32.107 * DB saved on disk
+2018-11-11_16:30:32.10874 2825:C 11 Nov 16:30:32.108 * RDB: 4 MB of memory used by copy-on-write
+2018-11-11_16:30:32.19204 423:M 11 Nov 16:30:32.191 * Background saving terminated with success
+2018-11-11_16:35:33.09674 423:M 11 Nov 16:35:33.096 * 10 changes in 300 seconds. Saving...
+2018-11-11_16:35:33.09802 423:M 11 Nov 16:35:33.097 * Background saving started by pid 3518
+2018-11-11_16:35:33.11504 3518:C 11 Nov 16:35:33.114 * DB saved on disk
+2018-11-11_16:35:33.11621 3518:C 11 Nov 16:35:33.116 * RDB: 4 MB of memory used by copy-on-write
+2018-11-11_16:35:33.19805 423:M 11 Nov 16:35:33.197 * Background saving terminated with success
+2018-11-11_16:37:30.99165 423:signal-handler (1541954250) Received SIGTERM scheduling shutdown...
+2018-11-11_16:37:31.07108 423:M 11 Nov 16:37:31.070 # User requested shutdown...
+2018-11-11_16:37:31.07111 423:M 11 Nov 16:37:31.070 * Saving the final RDB snapshot before exiting.
+2018-11-11_16:37:31.09771 423:M 11 Nov 16:37:31.097 * DB saved on disk
+2018-11-11_16:37:31.09775 423:M 11 Nov 16:37:31.097 * Removing the pid file.
+2018-11-11_16:37:31.09776 423:M 11 Nov 16:37:31.097 * Removing the unix socket file.
+2018-11-11_16:37:31.09780 423:M 11 Nov 16:37:31.097 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,6 @@
+2018-11-11_17:29:07.40829 level=info ts=2018-11-11T17:29:07.408177478Z caller=main.go:174 msg="Starting Alertmanager" version="(version=0.15.1, branch=master, revision=8b01fcbe2dcd7fc818e9b8f517764f08967ae3f5)"
+2018-11-11_17:29:07.40839 level=info ts=2018-11-11T17:29:07.408283551Z caller=main.go:175 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=2018-11-04T23:58:08+00:00)"
+2018-11-11_17:29:07.41347 level=info ts=2018-11-11T17:29:07.413361694Z caller=cluster.go:155 component=cluster msg="setting advertise address explicitly" addr=172.18.0.3 port=9094
+2018-11-11_17:29:07.41630 level=info ts=2018-11-11T17:29:07.416238193Z caller=main.go:320 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2018-11-11_17:29:07.41634 level=info ts=2018-11-11T17:29:07.416272078Z caller=cluster.go:570 component=cluster msg="Waiting for gossip to settle..." interval=10m0s
+2018-11-11_17:29:07.42067 level=info ts=2018-11-11T17:29:07.420626501Z caller=main.go:396 msg=Listening address=localhost:9093

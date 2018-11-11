@@ -1,0 +1,101 @@
+[0KRunning with gitlab-runner 11.4.2 (cf91d5e1)
+[0;m[0K  on dockerized runner 478097d8
+[0;m[0KUsing Docker executor with image maven:3.3.9-jdk-8 ...
+[0;m[0KPulling docker image maven:3.3.9-jdk-8 ...
+[0;m[0KUsing docker image sha256:9997d8483b2fc521a4159feab922546dda0c5c22b5084f86dfab48f123ae4364 for maven:3.3.9-jdk-8 ...
+[0;msection_start:1541960368:prepare_script[0KRunning on runner-478097d8-project-1-concurrent-0 via 283af80b952b...
+section_end:1541960371:prepare_script[0Ksection_start:1541960371:get_sources[0K[32;1mFetching changes...[0;m
+Removing .m2/
+Removing target/
+HEAD is now at 5b2dbc1 Update .gitlab-ci.yml
+From http://gitlab/root/spring-boot-examples
+   5b2dbc1..7fc6c54  master     -> origin/master
+[32;1mChecking out 7fc6c54e as master...[0;m
+[32;1mSkipping Git submodules setup[0;m
+section_end:1541960373:get_sources[0Ksection_start:1541960373:restore_cache[0K[32;1mChecking cache for default...[0;m
+No URL provided, cache will be not downloaded from shared cache server. Instead a local version of cache will be extracted.[0;m 
+[32;1mSuccessfully extracted cache[0;m
+section_end:1541960376:restore_cache[0Ksection_start:1541960376:download_artifacts[0Ksection_end:1541960378:download_artifacts[0Ksection_start:1541960378:build_script[0K[32;1m$ mvn $MAVEN_CLI_OPTS compile[0;m
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Expected root element 'settings' but found 'project' (position: START_TAG seen ...apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">... @3:101)  @ /builds/root/spring-boot-examples/pom.xml, line 3, column 101
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-boot-package-war 0.0.5-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.2.1:revision (default) @ spring-boot-package-war ---
+[INFO] dotGitDirectory /builds/root/spring-boot-examples/.git
+[INFO] git.build.user.name 
+[INFO] git.build.user.email 
+[INFO] git.branch 7fc6c54e6b322cf22756c445eab691364d6d4e3b
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] HEAD is [7fc6c54e6b322cf22756c445eab691364d6d4e3b]
+[INFO] Repo is in dirty state [false]
+[INFO] git.commit.id.describe 7fc6c54
+[INFO] git.commit.id 7fc6c54e6b322cf22756c445eab691364d6d4e3b
+[INFO] git.commit.id.abbrev 7fc6c54
+[INFO] git.dirty true
+[INFO] git.commit.user.name Administrator
+[INFO] git.commit.user.email admin@example.com
+[INFO] git.commit.message.full Update .gitlab-ci.yml
+[INFO] git.commit.message.short Update .gitlab-ci.yml
+[INFO] git.commit.time 20181111
+[INFO] git.remote.origin.url http://gitlab-ci-token@gitlab/root/spring-boot-examples.git
+[INFO] git.tags 
+[INFO] Tag refs [[]]
+[INFO] git.closest.tag.name 
+[INFO] Tag refs [[]]
+[INFO] git.closest.tag.commit.count 
+[INFO] git.build.time 20181111
+[INFO] git.build.version 0.0.5-SNAPSHOT
+[INFO] git.build.host runner-478097d8-project-1-concurrent-0
+[INFO] git.commit.id.describe-short 7fc6c54
+[INFO] found property git.build.host
+[INFO] found property git.build.user.name
+[INFO] found property git.closest.tag.commit.count
+[INFO] found property git.commit.id
+[INFO] found property git.branch
+[INFO] found property git.dirty
+[INFO] found property git.remote.origin.url
+[INFO] found property git.build.time
+[INFO] found property git.commit.user.name
+[INFO] found property git.commit.id.describe
+[INFO] found property git.commit.message.full
+[INFO] found property git.commit.time
+[INFO] found property git.commit.id.abbrev
+[INFO] found property git.build.user.email
+[INFO] found property git.commit.message.short
+[INFO] found property git.build.version
+[INFO] found property git.tags
+[INFO] found property git.commit.user.email
+[INFO] found property git.commit.id.describe-short
+[INFO] found property git.closest.tag.name
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-boot-package-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-boot-package-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.386 s
+[INFO] Finished at: 2018-11-11T18:19:43+00:00
+[INFO] Final Memory: 18M/312M
+[INFO] ------------------------------------------------------------------------
+section_end:1541960384:build_script[0Ksection_start:1541960384:after_script[0Ksection_end:1541960386:after_script[0Ksection_start:1541960386:archive_cache[0K[32;1mCreating cache default...[0;m
+.m2/repository/: found 1566 matching files        [0;m 
+target/: found 75 matching files                  [0;m 
+No URL provided, cache will be not uploaded to shared cache server. Cache will be stored only locally.[0;m 
+[32;1mCreated cache[0;m
+section_end:1541960391:archive_cache[0Ksection_start:1541960391:upload_artifacts_on_success[0Ksection_end:1541960393:upload_artifacts_on_success[0K[32;1mJob succeeded
+[0;m

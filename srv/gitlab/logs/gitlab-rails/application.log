@@ -1,0 +1,21 @@
+# Logfile created on 2018-11-11 15:49:09 +0000 by logger.rb/56815
+November 11, 2018 15:49: User "Administrator" (admin@example.com) was created
+November 11, 2018 15:50: Successful Login: username=root ip=172.17.0.1 method=standard admin=true
+November 11, 2018 16:00: User Logout: username=root ip=172.18.0.1
+November 11, 2018 16:00: User "Chn Tondovski" (chn566@gmail.com) was created
+November 11, 2018 16:00: (OAuth) saving user chn566@gmail.com from login with extern_uid => 104430674633920778090
+November 11, 2018 16:00: "Failed login for blocked user: user=chn566 ip=172.18.0.1")
+
+November 11, 2018 16:00: Successful Login: username=root ip=172.18.0.1 method=standard admin=true
+November 11, 2018 16:01: User "Chn Tondovski" (chn566@gmail.com)  was removed
+November 11, 2018 16:01: User Logout: username=root ip=172.18.0.1
+November 11, 2018 16:03: User "Chn Tondovski" (chn566@gmail.com) was created
+November 11, 2018 16:03: (OAuth) saving user chn566@gmail.com from login with extern_uid => 104430674633920778090
+November 11, 2018 16:04: Successful Login: username=chn566 ip=172.18.0.1 method=standard admin=false
+November 11, 2018 16:04: User Logout: username=chn566 ip=172.18.0.1
+November 11, 2018 16:04: Successful Login: username=root ip=172.18.0.1 method=standard admin=true
+November 11, 2018 16:06: Administrator created a new project "Administrator / spring boot"
+November 11, 2018 16:07: User Logout: username=root ip=172.18.0.1
+November 11, 2018 16:08: (OAuth) saving user chn566@gmail.com from login with extern_uid => 104430674633920778090
+November 11, 2018 18:10: Successful Login: username=root ip=172.18.0.1 method=standard admin=true
+November 11, 2018 18:38: Successful Login: username=root ip=172.18.0.1 method=standard admin=true

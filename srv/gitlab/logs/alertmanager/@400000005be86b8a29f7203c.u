@@ -1,0 +1,2 @@
+2018-11-11_17:46:14.23010 level=info ts=2018-11-11T17:46:14.230011786Z caller=cluster.go:579 component=cluster msg="gossip not settled but continuing anyway" polls=0 elapsed=1m0.000021099s
+2018-11-11_17:47:46.57745 level=info ts=2018-11-11T17:47:46.577307714Z caller=main.go:424 msg="Received SIGTERM, exiting gracefully..."

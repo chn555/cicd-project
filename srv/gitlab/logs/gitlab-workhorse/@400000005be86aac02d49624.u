@@ -1,0 +1,91 @@
+2018-11-11_17:40:17.61010 time="2018-11-11T17:40:17Z" level=info msg=Starting version="gitlab-workhorse v7.0.0-20181105.000223"
+2018-11-11_17:40:17.61058 time="2018-11-11T17:40:17Z" level=info msg="keywatcher: starting process loop"
+2018-11-11_17:40:17.61061 time="2018-11-11T17:40:17Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-11-11_17:40:20.44549 time="2018-11-11T17:40:20Z" level=error msg=error correlation-id=EqzSFjHcdh9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:20.44562 gitlab @ - - [2018/11/11:17:40:20 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:23.44431 time="2018-11-11T17:40:23Z" level=error msg=error correlation-id=jcXARbQiv64 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:23.44437 gitlab @ - - [2018/11/11:17:40:23 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:26.44649 time="2018-11-11T17:40:26Z" level=error msg=error correlation-id=PHTw8HLMPx1 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:26.44671 gitlab @ - - [2018/11/11:17:40:26 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:29.44479 time="2018-11-11T17:40:29Z" level=error msg=error correlation-id=HekAt1GjXx2 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:29.44486 gitlab @ - - [2018/11/11:17:40:29 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:32.44526 time="2018-11-11T17:40:32Z" level=error msg=error correlation-id=hJwuv1s86y4 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:32.44537 gitlab @ - - [2018/11/11:17:40:32 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:35.44561 time="2018-11-11T17:40:35Z" level=error msg=error correlation-id=72S48dIk1Sa error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:35.44570 gitlab @ - - [2018/11/11:17:40:35 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:38.44563 time="2018-11-11T17:40:38Z" level=error msg=error correlation-id=5OQK3hexyz1 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:38.44571 gitlab @ - - [2018/11/11:17:40:38 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:41.44580 time="2018-11-11T17:40:41Z" level=error msg=error correlation-id=64j3nU3gR2 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:41.44589 gitlab @ - - [2018/11/11:17:40:41 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:40:46.13255 time="2018-11-11T17:40:46Z" level=error msg=error correlation-id=g9xrtTSOIg9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_17:40:46.13263 gitlab @ - - [2018/11/11:17:40:46 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:01.10489 gitlab @ - - [2018/11/11:17:41:01 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.316
+2018-11-11_17:41:03.24435 localhost @ - - [2018/11/11:17:41:03 +0000] "GET /help HTTP/1.1" 200 37642 "" "curl/7.59.0" 0.602
+2018-11-11_17:41:03.79027 time="2018-11-11T17:41:03Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-11-11_17:41:03.79097 gitlab @ - - [2018/11/11:17:41:03 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:06.79123 gitlab @ - - [2018/11/11:17:41:06 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:09.79172 gitlab @ - - [2018/11/11:17:41:09 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:12.79177 gitlab @ - - [2018/11/11:17:41:12 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:15.79201 gitlab @ - - [2018/11/11:17:41:15 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:18.79258 gitlab @ - - [2018/11/11:17:41:18 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:21.79324 gitlab @ - - [2018/11/11:17:41:21 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:24.79211 gitlab @ - - [2018/11/11:17:41:24 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:41:27.79343 gitlab @ - - [2018/11/11:17:41:27 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:41:30.79406 gitlab @ - - [2018/11/11:17:41:30 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:33.79438 gitlab @ - - [2018/11/11:17:41:33 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:36.79488 gitlab @ - - [2018/11/11:17:41:36 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:39.79575 gitlab @ - - [2018/11/11:17:41:39 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:42.79589 gitlab @ - - [2018/11/11:17:41:42 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:45.79606 gitlab @ - - [2018/11/11:17:41:45 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:48.79718 gitlab @ - - [2018/11/11:17:41:48 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:51.79745 gitlab @ - - [2018/11/11:17:41:51 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:54.79739 gitlab @ - - [2018/11/11:17:41:54 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:41:57.79798 gitlab @ - - [2018/11/11:17:41:57 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:00.79888 gitlab @ - - [2018/11/11:17:42:00 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:03.79736 gitlab @ - - [2018/11/11:17:42:03 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:42:04.04782 localhost @ - - [2018/11/11:17:42:04 +0000] "GET /help HTTP/1.1" 200 37642 "" "curl/7.59.0" 0.590
+2018-11-11_17:42:06.79882 gitlab @ - - [2018/11/11:17:42:06 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:09.79811 gitlab @ - - [2018/11/11:17:42:09 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:42:12.79961 gitlab @ - - [2018/11/11:17:42:12 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:15.80057 gitlab @ - - [2018/11/11:17:42:15 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:18.80201 gitlab @ - - [2018/11/11:17:42:18 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:21.80104 gitlab @ - - [2018/11/11:17:42:21 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:24.80137 gitlab @ - - [2018/11/11:17:42:24 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:27.80179 gitlab @ - - [2018/11/11:17:42:27 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:30.80210 gitlab @ - - [2018/11/11:17:42:30 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:33.80257 gitlab @ - - [2018/11/11:17:42:33 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:36.80313 gitlab @ - - [2018/11/11:17:42:36 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:39.80321 gitlab @ - - [2018/11/11:17:42:39 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:42.80369 gitlab @ - - [2018/11/11:17:42:42 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:45.80399 gitlab @ - - [2018/11/11:17:42:45 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:48.80444 gitlab @ - - [2018/11/11:17:42:48 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:51.80507 gitlab @ - - [2018/11/11:17:42:51 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:54.80557 gitlab @ - - [2018/11/11:17:42:54 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:42:57.80571 gitlab @ - - [2018/11/11:17:42:57 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:00.80656 gitlab @ - - [2018/11/11:17:43:00 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:03.80663 gitlab @ - - [2018/11/11:17:43:03 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:04.48372 localhost @ - - [2018/11/11:17:43:04 +0000] "GET /help HTTP/1.1" 200 37642 "" "curl/7.59.0" 0.225
+2018-11-11_17:43:06.80726 gitlab @ - - [2018/11/11:17:43:06 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:09.80713 gitlab @ - - [2018/11/11:17:43:09 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:12.80740 gitlab @ - - [2018/11/11:17:43:12 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:15.80845 gitlab @ - - [2018/11/11:17:43:15 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:18.80825 gitlab @ - - [2018/11/11:17:43:18 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:43:21.80825 gitlab @ - - [2018/11/11:17:43:21 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.000
+2018-11-11_17:43:24.80906 gitlab @ - - [2018/11/11:17:43:24 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:27.80950 gitlab @ - - [2018/11/11:17:43:27 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:30.80978 gitlab @ - - [2018/11/11:17:43:30 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:33.81018 gitlab @ - - [2018/11/11:17:43:33 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:36.81050 gitlab @ - - [2018/11/11:17:43:36 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:39.81081 gitlab @ - - [2018/11/11:17:43:39 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:42.81109 gitlab @ - - [2018/11/11:17:43:42 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:45.81148 gitlab @ - - [2018/11/11:17:43:45 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:48.81214 gitlab @ - - [2018/11/11:17:43:48 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:51.81269 gitlab @ - - [2018/11/11:17:43:51 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:54.81324 gitlab @ - - [2018/11/11:17:43:54 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:43:57.81341 gitlab @ - - [2018/11/11:17:43:57 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:44:00.81375 gitlab @ - - [2018/11/11:17:44:00 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:44:03.81409 gitlab @ - - [2018/11/11:17:44:03 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:44:05.45132 localhost @ - - [2018/11/11:17:44:05 +0000] "GET /help HTTP/1.1" 200 37642 "" "curl/7.59.0" 0.691
+2018-11-11_17:44:06.81437 gitlab @ - - [2018/11/11:17:44:06 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:44:09.81478 gitlab @ - - [2018/11/11:17:44:09 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_17:44:12.81526 gitlab @ - - [2018/11/11:17:44:12 +0000] "POST /api/v4/jobs/request HTTP/1.1" 204 0 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001

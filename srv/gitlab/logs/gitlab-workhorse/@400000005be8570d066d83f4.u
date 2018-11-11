@@ -1,0 +1,30 @@
+2018-11-11_16:20:44.28898 time="2018-11-11T16:20:44Z" level=info msg=Starting version="gitlab-workhorse v7.0.0-20181105.000223"
+2018-11-11_16:20:44.28952 time="2018-11-11T16:20:44Z" level=info msg="keywatcher: starting process loop"
+2018-11-11_16:20:44.28955 time="2018-11-11T16:20:44Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-11-11_16:20:45.38000 time="2018-11-11T16:20:45Z" level=error msg=error correlation-id=SO4jKlAyeH2 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/
+2018-11-11_16:20:45.38036 localhost @ - - [2018/11/11:16:20:45 +0000] "GET / HTTP/1.1" 502 2940 "http://localhost/root/spring-boot-examples/-/jobs/4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" 0.002
+2018-11-11_16:20:45.88895 time="2018-11-11T16:20:45Z" level=error msg=error correlation-id=KpjMlwlaUb5 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/favicon.ico
+2018-11-11_16:20:45.88914 localhost @ - - [2018/11/11:16:20:45 +0000] "GET /favicon.ico HTTP/1.1" 502 2940 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" 0.001
+2018-11-11_16:20:46.84975 time="2018-11-11T16:20:46Z" level=error msg=error correlation-id=TSbsOTQjMr8 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:20:46.84985 gitlab @ - - [2018/11/11:16:20:46 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:20:49.84966 time="2018-11-11T16:20:49Z" level=error msg=error correlation-id=KgpXr4E0F43 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:20:49.85066 gitlab @ - - [2018/11/11:16:20:49 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.002
+2018-11-11_16:20:52.84951 time="2018-11-11T16:20:52Z" level=error msg=error correlation-id=zXllKv8IgJ9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:20:52.84959 gitlab @ - - [2018/11/11:16:20:52 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:20:55.84964 time="2018-11-11T16:20:55Z" level=error msg=error correlation-id=yZTIbdSSZa6 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:20:55.84973 gitlab @ - - [2018/11/11:16:20:55 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:20:58.84988 time="2018-11-11T16:20:58Z" level=error msg=error correlation-id=oGxk41ilLJ5 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:20:58.84996 gitlab @ - - [2018/11/11:16:20:58 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:21:01.85024 time="2018-11-11T16:21:01Z" level=error msg=error correlation-id=79wc4TrRdO2 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:21:01.85035 gitlab @ - - [2018/11/11:16:21:01 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:21:04.85087 time="2018-11-11T16:21:04Z" level=error msg=error correlation-id=9SreNt0dfj9 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:21:04.85100 gitlab @ - - [2018/11/11:16:21:04 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:21:07.85050 time="2018-11-11T16:21:07Z" level=error msg=error correlation-id=ABfv3rEJKy4 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:21:07.85059 gitlab @ - - [2018/11/11:16:21:07 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:21:11.09681 time="2018-11-11T16:21:11Z" level=error msg=error correlation-id=fCRljeX3jd6 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-11-11_16:21:11.09703 localhost @ - - [2018/11/11:16:21:11 +0000] "GET /help HTTP/1.1" 502 2940 "" "curl/7.59.0" 0.002
+2018-11-11_16:21:15.66630 time="2018-11-11T16:21:15Z" level=error msg=error correlation-id=9T6yZhrZ4t5 error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=POST uri=/api/v4/jobs/request
+2018-11-11_16:21:15.66637 gitlab @ - - [2018/11/11:16:21:15 +0000] "POST /api/v4/jobs/request HTTP/1.1" 502 24 "" "gitlab-runner 11.4.2 (11-4-stable; go1.8.7; linux/amd64)" 0.001
+2018-11-11_16:21:22.70978 time="2018-11-11T16:21:22Z" level=info msg=Starting version="gitlab-workhorse v7.0.0-20181105.000223"
+2018-11-11_16:21:22.71023 time="2018-11-11T16:21:22Z" level=info msg="keywatcher: starting process loop"
+2018-11-11_16:21:22.71025 time="2018-11-11T16:21:22Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
